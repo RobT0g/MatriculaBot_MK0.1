@@ -27,4 +27,4 @@
  
  //---------------------------------------//
  
- The last time this project was update was on 12/20/2021, the upload onto github is meant to make this a time capsule, and compare the final versions.
+This project build was finished on 12/20/2021, newer builds are being worked on since 01/05/2022. 
