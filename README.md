@@ -26,3 +26,5 @@
  - final: Boolean, if it's true, it symbolizes that the given step is the last of the block it is on.
  
  //---------------------------------------//
+ 
+ The last time this project was update was on 12/20/2021, the upload onto github is meant to make this a time capsule, and compare the final versions.
