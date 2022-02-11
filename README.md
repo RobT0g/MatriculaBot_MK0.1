@@ -18,12 +18,14 @@
  
  chat.chatBlocks[num].fullSteps = ([new ChatStep(msg, fullfill, act, comesFrom, defans, final)])
  
- paramaters:
+ ChatStep paramaters:
  - msg: It's an array of strings, refers to the messages that are sent as soon as the step is reached;
  - fullfill: Tag that specify how this step can progress, how it can be fullfilled;
  - comesFrom: Tells the id of the previous step;
  - defans: Default response, it's the message the bot sends when it can't understand what the user said. If not specified for a given step, the bot sends another default answer, wich can found on the messages.js file;
  - final: Boolean, if it's true, it symbolizes that the given step is the last of the block it is on.
+ 
+ Note that the parameter for the fullSteps is an array, so you can add multiple steps at once.
  
  //---------------------------------------//
  
