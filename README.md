@@ -12,7 +12,7 @@
  The IA folder contains my developed chatting system. This is the earlieast functional version, so note that it has to be improved a lot. The system basically breaks all the conversation, wich has to be planned on all the details (this chatbot does not use machine learning to improve), on blocks and steps.
  A block contains multiple steps, and each step can proceed to the next untill the block is finished, which is when the next block is called.
  
- This chatbot also uses a tags system, wich basically refers to a key info that can be found within a received message. All the tags are symbolized by \~tag\~, which holds the tag name. For instance, the tag ~cpf~ represents a 11 digit code that every Brazilian citizen has, it means the equivalent of individual registration.
+ This chatbot also uses a tags system, wich basically refers to a key info that can be found within a received message. All the tags are symbolized by \~tag\~, which holds the tag name. For instance, the tag \~cpf\~ represents a 11 digit code that every Brazilian citizen has, it means the equivalent of individual registration.
  
  On this 0.1 version, the system is working fully sequential, so a step cannot have multiple paths (YET). The registered steps are also very limited for now, althoguh the system is prepared for some minor expansion. You can add your own steps following the example:
  
